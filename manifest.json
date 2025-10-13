@@ -1,15 +1,15 @@
 {
   "format_version": 2,
   "header": {
-    "description": "偉人島item",
-    "name": "偉人島itemパック",
+    "description": "偉人島",
+    "name": "偉人島パック",
     "uuid": "fcb1b13c-148b-4124-b3c4-56fe7e44e7bd",
     "version": [1, 0, 1],
     "min_engine_version": [1, 21, 10]
   },
   "modules": [
     {
-      "description": "偉人島のitemビヘイビアパック",
+      "description": "偉人島のビヘイビアパック",
       "type": "data",
       "uuid": "ef50360d-7acb-4a6d-a25e-960ead26b701",
       "version": [1, 0, 1]
