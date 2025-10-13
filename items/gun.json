@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nato:gun",
+      "menu_category": {
+        "category": "Items"
+      }
+    },
+    "components": {
+      "minecraft:icon": "gun",
+      "minecraft:projectile": {
+        "projectile_entity": "nato:bullet_entity"
+      },
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6,
+        "movement_modifier": 0.8
+      },
+      "minecraft:use_animation": "spyglass",
+      "minecraft:shooter": {
+        "ammunition": [
+          {
+            "item": "nato:bullet",
+            "use_offhand": true,
+            "search_inventory": true,
+            "use_in_creative": true
+          }
+        ],
+        "max_draw_duration": 1.0,
+        "scale_power_by_draw_duration": true,
+        "charge_on_draw": false
+      }
+    }
+  }
+}

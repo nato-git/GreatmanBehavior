@@ -1,0 +1,11 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nato:smartphone"
+    },
+    "components": {
+      "minecraft:icon": "smartphone"
+    }
+  }
+}

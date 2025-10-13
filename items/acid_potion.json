@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nato:acid_potion",
+      "menu_category": {
+        "category": "Items"
+      }
+    },
+    "components": {
+      "minecraft:icon": "acid_potion",
+      "minecraft:throwable": {
+        "do_swing_animation": true,
+        "launch_power_scale": 1.5,
+        "max_launch_power": 1.5
+      },
+      "minecraft:projectile": {
+        "minimum_critical_power": 1.25,
+        "projectile_entity": "nato:acid_potion_entity"
+      }
+    }
+  }
+}
