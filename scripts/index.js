@@ -596,7 +596,7 @@ function first_option() {
     }
     //以下同じようにお願いします
 
-    if (startPlayers.hasTag('オットー・フォン・ビスマルク')) {
+    else if (startPlayers.hasTag('オットー・フォン・ビスマルク')) {
       startPlayers.runCommandAsync('scoreboard players set @s seni 2');
       startPlayers.runCommandAsync('scoreboard players set @s bougo 2');
       startPlayers.runCommandAsync('scoreboard players set @s buryoku 2');
@@ -610,7 +610,7 @@ function first_option() {
       startPlayers.runCommandAsync('give @s minecraft:');
     }
 
-    if (startPlayers.hasTag('ニコラ・テスラ')) {
+    else if (startPlayers.hasTag('ニコラ・テスラ')) {
       startPlayers.runCommandAsync('scoreboard players set @s gijutu 7');
       startPlayers.runCommandAsync('scoreboard players set @s tie 5');
       startPlayers.runCommandAsync('scoreboard players set @s bougo 1');
@@ -621,6 +621,13 @@ function first_option() {
       startPlayers.runCommandAsync('give @s nato:rakurai');
       startPlayers.runCommandAsync('give @s nato:tensou');
       startPlayers.runCommandAsync('tag @s add plus');
+    }
+
+    else if(startPlayers.hasTag('クリストファー・コロンブス')){
+      startPlayers.runCommandAsync('give @s minecraft:compass')
+      startPlayers.runCommandAsync('give @s minecraft:diamond') //ゾンビ召喚
+      startPlayers.runCommandAsync('give @s minecraft:clock') //足おそい
+      startPlayers.runCommandAsync('give @s minecraft:arrow') //アンカー飛ばし
     }
   }
 }
